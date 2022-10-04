@@ -1,0 +1,36 @@
+@font-face {
+  font-family: poppies;
+  src: url(./fonts/poppies.woff2);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-position: center;
+
+  font-family: poppies, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: white;
+}
+
+body::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(58, 58, 158, 0.8);
+  top: 0;
+  z-index: -1;
+}
+
+h1 {
+  text-align: center;
+}

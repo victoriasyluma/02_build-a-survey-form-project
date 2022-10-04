@@ -1,0 +1,9 @@
+{
+  "name": "02_build-a-survey-form-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "server-lite": "^2.0.0"
+  }
+}
