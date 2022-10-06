@@ -34,3 +34,56 @@ body::before {
 h1 {
   text-align: center;
 }
+
+#survey-form {
+  background-color: rgba(43, 43, 73, 0.9);
+  width: 650px;
+  margin: auto;
+}
+.w100 {
+  width: 100%;
+}
+
+/* .p */
+.p {
+  padding-right: 44px;
+  padding-left: 44px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.pt8px {
+  padding-top: 8px;
+}
+.pb8px {
+  padding-bottom: 8px;
+}
+/* .p ........*/
+/* .m */
+
+.mb8px {
+  margin-bottom: 8px;
+}
+.mb {
+  margin-bottom: 30px;
+}
+/* .m........ */
+.block {
+  display: block;
+}
+#title {
+  font-family: sans-serif;
+}
+#description {
+  text-align: center;
+  font-style: italic;
+  font-size: larger;
+}
+/* .bordarradios */
+.border-radios-4px {
+  border-radius: 4px;
+}
+/* .bordarradios */
+
+.bordernone {
+  border: none;
+}

@@ -9,31 +9,132 @@
 
   <body>
     <h1 id="title">freeCodeCamp Survey Form</h1>
+
     <p id="description">
       Thank you for taking the time to help us improve the platform
     </p>
-    <form id="survey-form">
-      <label id="name-label" for="Name"
-        >Name
-        <input id="name" type="text" placeholder="Enter your name" required
-      /></label>
-      <br /><br />
-      <label id="email-label" for="Email"
-        >Email
-        <input id="email" type="email" placeholder="Enter your email" required
-      /></label>
-      <br /><br />
-      <label id="number-label" for="age"
-        >Age(optional)><input
-          id="number"
-          min="10"
-          max="99"
-          type="number"
-          placeholder="Age"
-          required
-      /></label>
-      <br />
-      <br />
+    <form class="p border-radios-4px" id="survey-form">
+      <label class="block mb8px" id="name-label" for="Name">Name</label>
+
+      <input
+        class="w100 mb pt8px pb8px border-radios-4px"
+        id="name"
+        type="text"
+        placeholder="Enter your name"
+        required
+      />
+
+      <label class="block mb8px" id="email-label" for="Email">Email</label>
+
+      <input
+        class="w100 mb pt8px pb8px border-radios-4px"
+        id="email"
+        type="email"
+        placeholder="Enter your email"
+        required
+      />
+
+      <label class="block mb8px" id="number-label" for="age"
+        >Age(optiona)
+      </label>
+
+      <input
+        class="w100 mb pt8px pb8px border-radios-4px"
+        id="number"
+        min="10"
+        max="99"
+        type="number"
+        placeholder="Age"
+        required
+      />
+
+      <label class="block mb8px">
+        Which option best describes your current role?
+      </label>
+      <select class="w100 mb pt8px pb8px border-radios-4px" id="dropdown">
+        <option value="Select current role" selected disabled>
+          Select current role
+        </option>
+        <option value="Student">Student</option>
+        <option value="Full time job">Full time job</option>
+        <option value="Full time learner">Full time learner</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label class="block mb8px"
+        >Would you recommend freeCodeCamp to a friend?</label
+      >
+
+      <fieldset class="bordernone">
+        <input type="radio" value="Definitely" name="Definitely" />Definitely
+      </fieldset>
+
+      <fieldset class="bordernone">
+        <input type="radio" value="Maybe" name="maybe" />Maybe
+      </fieldset>
+
+      <fieldset class="bordernone">
+        <input type="radio" value="Not sure" name="not sure" />Not sure
+      </fieldset>
+
+      <label class="block mb8px">
+        What would you like yo see improved? (Check all that apply)
+      </label>
+
+      <fieldset class="bordernone">
+        <input type="checkbox" value="Front-end projects" />
+        Front-end projects
+      </fieldset>
+      <fieldset class="bordernone">
+        <input type="checkbox" value="Back-end projects" />
+        Back-end projects
+      </fieldset>
+
+      <fieldset class="bordernone">
+        <input type="checkbox" value="Data Visualization" />
+        Data Visualization
+      </fieldset>
+
+      <fieldset class="bordernone">
+        <input type="checkbox" value="Challenges" />
+        Challenges
+      </fieldset>
+
+      <fieldset class="bordernone">
+        <input type="checkbox" value="Open Source Community" />
+        Open Source Community
+      </fieldset>
+
+      <fieldset class="bordernone">
+        <input type="checkbox" value="Gitter help rooms" />
+        Gitter help rooms
+      </fieldset>
+
+      <fieldset class="bordernone">
+        <input type="checkbox" value="Videos" />
+        Videos
+      </fieldset>
+
+      <fieldset class="bordernone">
+        <input type="checkbox" value="City Meetups" />
+        City Meetups
+      </fieldset>
+
+      <fieldset class="bordernone">
+        <input type="checkbox" value="Wiki" />
+        Wiki
+      </fieldset>
+
+      <fieldset class="bordernone">
+        <input type="checkbox" value="Forum" />
+        Forum
+      </fieldset>
+
+      <fieldset class="bordernone">
+        <input class="" type="checkbox" value="Additional Courses" />
+        Additional Courses
+      </fieldset>
     </form>
   </body>
 </html>
