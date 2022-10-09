@@ -51,6 +51,7 @@
       <label class="block mb8px">
         Which option best describes your current role?
       </label>
+
       <select class="w100 mb pt8px pb8px border-radios-4px" id="dropdown">
         <option value="Select current role" selected disabled>
           Select current role
@@ -66,75 +67,88 @@
         >Would you recommend freeCodeCamp to a friend?</label
       >
 
-      <fieldset class="bordernone">
-        <input type="radio" value="Definitely" name="Definitely" />Definitely
-      </fieldset>
+      <fieldset class="bordernone radio-input">
+        <div>
+          <input
+            type="radio"
+            value="Definitely"
+            checked
+            name="recommend"
+          />Definitely
+        </div>
 
-      <fieldset class="bordernone">
-        <input type="radio" value="Maybe" name="maybe" />Maybe
-      </fieldset>
+        <div><input type="radio" value="Maybe" name="recommend" />Maybe</div>
 
-      <fieldset class="bordernone">
-        <input type="radio" value="Not sure" name="not sure" />Not sure
+        <div>
+          <input type="radio" value="Not sure" name="recommend" />Not sure
+        </div>
       </fieldset>
 
       <label class="block mb8px">
         What would you like yo see improved? (Check all that apply)
       </label>
 
-      <fieldset class="bordernone">
+      <div>
         <input type="checkbox" value="Front-end projects" />
         Front-end projects
-      </fieldset>
-      <fieldset class="bordernone">
+      </div>
+
+      <div>
         <input type="checkbox" value="Back-end projects" />
         Back-end projects
-      </fieldset>
+      </div>
 
-      <fieldset class="bordernone">
+      <div>
         <input type="checkbox" value="Data Visualization" />
         Data Visualization
-      </fieldset>
+      </div>
 
-      <fieldset class="bordernone">
+      <div>
         <input type="checkbox" value="Challenges" />
         Challenges
-      </fieldset>
+      </div>
 
-      <fieldset class="bordernone">
+      <div>
         <input type="checkbox" value="Open Source Community" />
         Open Source Community
-      </fieldset>
+      </div>
 
-      <fieldset class="bordernone">
+      <div>
         <input type="checkbox" value="Gitter help rooms" />
         Gitter help rooms
-      </fieldset>
+      </div>
 
-      <fieldset class="bordernone">
+      <div>
         <input type="checkbox" value="Videos" />
         Videos
-      </fieldset>
+      </div>
 
-      <fieldset class="bordernone">
+      <div>
         <input type="checkbox" value="City Meetups" />
         City Meetups
-      </fieldset>
+      </div>
 
-      <fieldset class="bordernone">
+      <div>
         <input type="checkbox" value="Wiki" />
         Wiki
-      </fieldset>
+      </div>
 
-      <fieldset class="bordernone">
+      <div>
         <input type="checkbox" value="Forum" />
         Forum
-      </fieldset>
+      </div>
 
-      <fieldset class="bordernone">
+      <div>
         <input class="" type="checkbox" value="Additional Courses" />
         Additional Courses
-      </fieldset>
+      </div>
+      <div class="mb8px margin-top40px">
+        <lebel>Any comments or suggestion ?</lebel>
+      </div>
+      <textarea class="" rows="6" cols="76">
+Enter your comment here...</textarea
+      >
+      <input type="submit" value="Submit" />
     </form>
   </body>
 </html>
